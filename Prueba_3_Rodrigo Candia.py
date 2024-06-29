@@ -136,7 +136,7 @@ def generar_boleta():
             print(f"Fecha: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
             print("-------------------------------------------")
             print("Detalles de la compra:")
-            print(f"- Pizza: {venta['nombre_pizza'].replace('_', ' ')}")
+            print(f"- Pizza: {venta['nombre_pizza']('_', ' ')}")
             print(f"- Tamaño: {venta['tamaño']}")
             print(f"- Cantidad: {venta['cantidad']} unidad(es)")
             print("-------------------------------------------")
